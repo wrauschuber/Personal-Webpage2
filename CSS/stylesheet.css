@@ -1,0 +1,133 @@
+body {
+    font-size: 1.25em;
+    margin: 25px;
+    color: black;
+}
+
+h1, h3 {
+    color: black;
+    font-variant: small-caps;
+}
+
+/* center content on screen */
+.wrap {
+    margin: 0 auto;
+    width: 90%;
+}
+
+main {
+    width: 70%;
+    float: left;
+    padding: 10px 25px 10px 10px;
+}
+
+aside.right {
+    width: 25%;
+    float: left;
+    padding: 10px;
+
+  }
+  
+
+
+
+
+figure {
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 0;
+    border: 1px solid gold; /* Added unit to '1px' */
+}
+
+img.responsive-main {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+img.responsive-sidebar {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+
+
+
+#menubar {
+    background-color: grey;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+ul#navlist {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#navlist li {
+    display: block;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    font-variant: small-caps;
+    padding: 10px;
+}
+
+#navlist a {
+    padding: 10px 10px;
+}
+
+#navlist a:link, #navlist a:visited {
+    color: #fff;
+    background-color: grey;
+    text-decoration: none;
+}
+
+#navlist a:hover {
+    color: gold;
+    background-color: #d5d5d5;
+    text-decoration: none;
+}
+
+.logo {
+
+    width: 100px;
+    height: auto;
+    margin-right: 50px; /* Corrected typo '50x' to '50px' */
+
+    width: 100px; 
+    height: auto;
+    margin-right: 50x;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; 
+}
+
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#skills h2 {
+    margin-top: 0; 
+}
+
+
+
+
+
+
+
